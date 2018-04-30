@@ -1,0 +1,80 @@
+@import "props";
+
+.text {
+
+	&.secondary {
+		font-family: $secondary-font;
+	}
+
+	// Color
+	&.black {
+		color: $black;
+	}
+
+	&.blue {
+		color: $blue;
+	}
+
+	&.red {
+		color: $red;
+	}
+
+	&.gray-blue {
+		color: $gray-blue;
+	}
+
+	&.white {
+		color: $white;
+	}
+
+	// Size
+	&.tiny {
+		font-size: 0.5rem;
+	}
+
+	&.small {
+		font-size: 0.75rem;
+	}
+
+	&.medium {
+		font-size: 1.5rem;
+	}
+
+	&.large {
+		font-size: 2.5rem;
+	}
+
+	&.x-large {
+		font-size: 5rem;
+	}
+
+	&.xx-large {
+		font-size: 10rem;
+	}
+
+	// Style
+	&.center {
+		text-align: center;
+	}
+	&.uppercase {
+		text-transform: uppercase;
+	}
+
+	&.lowercase {
+		text-transform: lowercase;
+	}
+
+	&.italic {
+		font-style: italic;
+	}
+
+	// Weight
+	&.thin {
+		font-weight: 100;
+	}
+
+	&.thick {
+		font-weight: 700;
+	}
+
+}

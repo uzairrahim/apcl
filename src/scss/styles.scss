@@ -1,0 +1,13 @@
+@import "props";
+@import "flex";
+@import "typography";
+
+html, body {
+	background-color: $gray-blue;
+	color: $white;
+	font-family: $primary-font;
+	font-size: 14px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}

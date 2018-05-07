@@ -1,0 +1,41 @@
+@import "../../../scss/props";
+@import "../../../scss/mixin";
+
+.navigation {
+	background-color: $blue;
+	box-sizing: border-box;
+	height: 100vh;
+	left: -100vw;
+	position: absolute;
+	width: 100vw;
+	top: 0;
+	@include animate;
+
+	.logo {
+		background-image: url("../../../assets/img/apcl-white.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 120px auto;
+		height: $header-height;
+		margin-left: $gutter/4;
+		width: 120px;
+	}
+
+	.close {
+		background-image: url("../../../assets/img/close.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 25px auto;
+		cursor: pointer;
+		height: $header-height;
+		width: $header-height;
+	}
+}
+
+@media (max-width: $phone) {
+	.navigation {
+		&.active {
+			left: 0;
+		}
+	}	
+}

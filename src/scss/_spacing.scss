@@ -1,0 +1,52 @@
+@import "props";
+
+.mrg {
+	margin: $gutter;
+}
+
+.mrg-half {
+	margin: $gutter/2;
+}
+
+.mrg-qtr {
+	margin: $gutter/4;
+}
+
+.mrg-tb {
+	margin-top: $gutter;
+	margin-bottom: $gutter;
+}
+
+.mrg-tb-half {
+	margin-top: $gutter/2;
+	margin-bottom: $gutter/2;
+}
+
+.mrg-tb-qtr {
+	margin-top: $gutter/4;
+	margin-bottom: $gutter/4;
+}
+
+.mrg-t {
+	margin-top: $gutter;
+}
+
+.mrg-t-half {
+	margin-top: $gutter/2;
+}
+
+.mrg-t-qtr {
+	margin-top: $gutter/4;
+}
+
+.mrg-l {
+	margin-left: $gutter;
+}
+
+.mrg-l-half {
+	margin-left: $gutter/2;
+}
+
+.mrg-l-qtr {
+	margin-left: $gutter/4;
+}

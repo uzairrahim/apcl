@@ -1,15 +1,24 @@
+// Animation
+$transition-speed :300ms;
+
+// Breakpoints
+$tablet: 1023px;
+$phone: 767px;
 
 // Colors
 $white: #f8f8f8;
 $black: #2c2c2c;
 $blue: #3254a3;
-$red: #f15060;
+$light-blue: #016FB9;
+$red: #ff5a5a;
 $gray-blue: #1e273d;
-
 
 // Font
 $primary-font:  sans-serif;
 $secondary-font: "Roboto", sans-serif;
+
+// Header
+$header-height: 55px;
 
 // Spacing
 $gutter: 24px;

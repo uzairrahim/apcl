@@ -3,18 +3,24 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { Header, Layout, Navigation } from '../components';
+
+import { LayoutService } from '../services';
 
 @NgModule({
   declarations: [
-    AppComponent
+    Header,
+    Layout,
+    Navigation
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    LayoutService
+  ],
+  bootstrap: [Layout]
 })
-export class AppModule { }
+export class App { }

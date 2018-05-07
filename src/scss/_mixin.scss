@@ -1,0 +1,10 @@
+@import "./props";
+
+@mixin animate {
+	-webkit-transition: all 200ms cubic-bezier(.05,.5,0,1);
+	-moz-transition: all 200ms cubic-bezier(.05,.5,0,1);
+	-o-transition: all 200ms cubic-bezier(.05,.5,0,1);
+	-ms-transition: all 200ms cubic-bezier(.05,.5,0,1);
+	transition: all 200ms cubic-bezier(.05,.5,0,1);
+	-webkit-backface-visibility: hidden;
+}

@@ -10,7 +10,7 @@ import { LINKS } from '../../constants';
 export class Navigation implements OnInit {
 
 	public active: boolean = false;
-	public links: {} = LINKS;
+	public links = LINKS;
 
 	constructor(
 		private layoutSvc: LayoutService

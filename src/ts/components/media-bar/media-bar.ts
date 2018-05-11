@@ -8,7 +8,7 @@ import { LINKS } from '../../constants';
 })
 export class MediaBar implements OnInit {
 
-	public links: {} = LINKS;
+	public links = LINKS;
 
 	constructor() {
 

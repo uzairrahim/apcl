@@ -1,0 +1,29 @@
+@import "props";
+
+.icon {
+	background-size: 20px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	height: $media-bar-height;
+	opacity: 0.3;
+	width: $media-bar-height;
+
+	&:hover {
+		opacity: 0.5;
+	}
+
+	&.facebook {
+		background-image: url("../assets/img/facebook.png");
+	}
+
+	&.instagram {
+		background-image: url("../assets/img/instagram.png");
+	}
+
+	&.youtube {
+		background-size: auto 28px;
+		background-image: url("../assets/img/youtube.png");
+	}
+
+}

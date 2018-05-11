@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LayoutService } from '../../services';
-
+import { LINKS } from '../../constants';
 
 @Component({
 	selector: 'navigation',
@@ -9,7 +9,8 @@ import { LayoutService } from '../../services';
 })
 export class Navigation implements OnInit {
 
-	public active: boolean = false
+	public active: boolean = false;
+	public links: {} = LINKS;
 
 	constructor(
 		private layoutSvc: LayoutService

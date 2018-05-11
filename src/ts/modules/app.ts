@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { Header, Layout, Navigation } from '../components';
+import { Header, Layout, MediaBar, Navigation } from '../components';
 
 import { LayoutService } from '../services';
 
@@ -11,7 +11,8 @@ import { LayoutService } from '../services';
   declarations: [
     Header,
     Layout,
-    Navigation
+    Navigation,
+    MediaBar
   ],
   imports: [
     BrowserModule,

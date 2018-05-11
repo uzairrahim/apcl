@@ -1,9 +1,16 @@
 <div class="navigation" [ngClass]="{'active' : active}">
 	<div class="flex vertical">
-		<div class="flex horizontal center justified">
+		<div class="head flex horizontal center justified">
 			<div class="logo"></div>
 			<div class="close" (click)="onCloseNav()"></div>
 		</div>
-		
+		<div class="paths flex vertical">
+			<a>Schedule</a>
+			<a>Results</a>
+			<a>Stats</a>
+			<a [attr.href]="links.FACEBOOK" target="_blank">Facebook</a>
+			<a [attr.href]="links.YOUTUBE" target="_blank">Youtube</a>
+			<a [attr.href]="links.INSTAGRAM" target="_blank">Instagram</a>
+		</div>
 	</div>
 </div>
